@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main{
+    height:100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 20px;
+}
+
+.container{
+    position:relative;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background{
+    position:absolute;
+    height: 100%;
+    width:100%;
+    left:0px;
+    top:0px;
+    z-index: -1;
+}
+h1{
+    position: absolute;
+    top:30%;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    letter-spacing: 4px;
+    text-shadow: 0 10px 20px black;
+}
+
+section{
+    color: white;
+    padding: 5rem 0;
+    background-color: rgb(45,45,45);
+}
+.heading{
+    font-size: 3rem;
+    padding:0 10rem;
+}
+
+.content{
+    font-size:1.5rem;
+    padding:0 10rem;
+    margin:5rem 0;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.desc{
+    padding:0.5rem 2.5rem;
+    position: absolute;
+    color:black;
+    background-color: white;
+    top:40%;
+    left:43%;
+    font-size: 3.5rem;
+    font-weight: 600px;
+}
+.bg1{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/339/595/682/nature-bicycle-mountain-bikes-wallpaper-preview.jpg);
+}
+.bg2{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/781/742/551/paragliding-hd-image-download-wallpaper-preview.jpg);
+}
+.bg3{
+    background-image: url(https://images3.alphacoders.com/597/597944.jpg);
+}
